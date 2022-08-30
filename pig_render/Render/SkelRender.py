@@ -26,7 +26,7 @@ class SkelRender:
         self.bone_num = self.topo.shape[0] 
         current_dir = os.path.dirname(os.path.abspath(__file__))
         self.ballobj = OBJ(current_dir + "/../data/obj_model/ball.obj")
-        self.stickobj = OBJ(current_dir + "/../data/obj_model/stick_dense.obj")
+        self.stickobj = OBJ(current_dir + "/../data/obj_model/stick.obj")
         self.cubeobj = OBJ(current_dir + "/../data/obj_model/cube.obj")
 
         self.stick_size = 0.005 
